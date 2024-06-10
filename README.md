@@ -22,15 +22,16 @@ C) Sumaresta.py valor final: 0
 - 0.13s
 
 Sumaresta.py descomentado
--Tomó 37.089s, valor final es -499500
--Tomó 37.018s, valor final es -459080
--Tomó 42.769s, valor final es 500000
--Tomó 37.076s, valor final es 442625
--Tomó 37.450s, valor final es -257890
--Tomó 36.713s, valor final es -449640
--Tomó 38.327s, valor final es -499540
--Tomó 35.972s, valor final es -500000
--Tomó 36.130s, valor final es -385660
+- Tomó 37.089s, valor final es -499500
+- Tomó 37.018s, valor final es -459080
+- Tomó 42.769s, valor final es 500000
+- Tomó 37.076s, valor final es 442625
+- Tomó 37.450s, valor final es -257890
+- Tomó 36.713s, valor final es -449640
+- Tomó 38.327s, valor final es -499540
+- Tomó 35.972s, valor final es -500000
+- Tomó 36.130s, valor final es -385660
+
 Al descomentar el código sumayresta.py, se volvió más lento el tiempo de ejecución, más impredecible y el valor final varía en cada resultado. 
 Esto sucede ya que al descomentar el código, se introducen bucles adicionales que no hacen nada, esto aumenta el tiempo de ejecución,
 y el valor final varía porque los dos hilos van entrando a “acumulador” y cambiando su resultado simultáneamente sin sincronizarse.
