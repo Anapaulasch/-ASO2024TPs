@@ -1,6 +1,6 @@
 1.A) 
-Conhilos.py tiempos de ejecución: 4.16s – 4.14s – 4.11s – 4.08s – 4.14s
-Sinhilos.py tiempos de ejecución: 7.18s – 7.40s – 7.11s – 7.39s – 7.43s
+- Conhilos.py tiempos de ejecución: 4.16s – 4.14s – 4.11s – 4.08s – 4.14s
+- Sinhilos.py tiempos de ejecución: 7.18s – 7.40s – 7.11s – 7.39s – 7.43s
 
 El tiempo de ejecución de conhilos.py es menor al de sinhilos.py, los dos no tienen mucha variación entre cada una de sus ejecuciones. 
 El tiempo de ejecución es y no es predecible, por un lado, podemos ver que el tiempo de ejecución de conhilos.py no varían de cuatro segundos, 
